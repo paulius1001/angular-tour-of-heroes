@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { Heroes1Component } from './heroes1/heroes1.component';
+import { Heroes2Component } from './heroes2/heroes2.component';
 
 const routes: Routes = [
 	{
-		path: 'hero_step_1',
-		component: Heroes1Component
+		path: 'hero_step_2',
+		component: Heroes2Component
 	}
 ];
 
