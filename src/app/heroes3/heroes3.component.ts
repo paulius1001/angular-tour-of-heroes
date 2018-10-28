@@ -3,11 +3,11 @@ import { Hero } from '../hero';
 import { HEROES } from '../mock-heroes';
 
 @Component({
-  selector: 'app-heroes2',
-  templateUrl: './heroes2.component.html',
-  styleUrls: ['./heroes2.component.css']
+  selector: 'app-heroes3',
+  templateUrl: './heroes3.component.html',
+  styleUrls: ['./heroes3.component.css']
 })
-export class Heroes2Component implements OnInit {
+export class Heroes3Component implements OnInit {
 
   constructor() { }
 

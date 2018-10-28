@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms'; 
 import { AppComponent } from './app.component';
-import { Heroes2Component } from './heroes2/heroes2.component';
+import { Heroes3Component } from './heroes3/heroes3.component';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Heroes2Component
+    Heroes3Component,
+    HeroDetailComponent
   ],
   imports: [
     BrowserModule,
