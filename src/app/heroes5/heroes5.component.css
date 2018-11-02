@@ -29,6 +29,12 @@
   background-color: #DDD;
   left: .1em;
 }
+
+.heroes li a {
+  padding: 0;
+  text-align: left;
+}
+
 .heroes .text {
   position: relative;
   top: -3px;

@@ -4,11 +4,11 @@ import { Hero } from '../hero';
 import { HeroService } from '../hero.service';
 
 @Component({
-  selector: 'app-heroes4',
-  templateUrl: './heroes4.component.html',
-  styleUrls: ['./heroes4.component.css']
+  selector: 'app-heroes5',
+  templateUrl: './heroes5.component.html',
+  styleUrls: ['./heroes5.component.css']
 })
-export class Heroes4Component implements OnInit {
+export class heroes5Component implements OnInit {
 
   constructor(private heroService: HeroService) { }
 
